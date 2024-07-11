@@ -557,8 +557,6 @@ OS command injection, also referred to as shell injection, enables attackers to 
 
 Code injection refers to attacks that involve injecting malicious code into an application. The application then interprets or executes the code, affecting the performance and function of the application. This type of attack exploits poor handling of untrusted data. These types of attacks are usually made possible due to a lack of proper input/output data validation.
 
-**Example** : http://example.com/index.php?page=phpinfo();
-
 
 In this scenario, if an application fails to validate input from a GET request before passing it to the PHP include() function, attackers can exploit this vulnerability. They can manipulate the URL parameter to inject arbitrary code, such as executing the phpinfo() function, revealing sensitive server information. This underscores the importance of proper input validation to prevent code injection vulnerabilities, which can enable unauthorized commands execution within the application.
 
