@@ -497,7 +497,7 @@ Yes, SSL certificates work with the TLS protocol. However, their effectiveness d
 
 A web application firewall, or WAF, is a security tool for monitoring, filtering and blocking incoming and outgoing data packets from a web application or website. WAFs can be host-based, network-based or cloud-based and are typically deployed through reverse proxies and placed in front of an application or website (or multiple apps and sites).
 
-![alt text](./Images/waf.png)
+
 
 ## 76. Difference between Session Hijacking and Session Fixation?
 
